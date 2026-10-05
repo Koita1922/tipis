@@ -1,0 +1,26 @@
+{
+  "raw_rows": 100000,
+  "duplicate_rows_removed": 3854,
+  "train_rows": 57687,
+  "validation_rows": 19229,
+  "test_rows": 19230,
+  "split_seed": 42,
+  "threshold": 0.5,
+  "tree_count": 100,
+  "accuracy": 0.9700468018720749,
+  "precision": 0.9819432502149613,
+  "recall": 0.6729522687094873,
+  "f1": 0.7986013986013986,
+  "roc_auc": 0.97819402832628,
+  "confusion_matrix": [
+    [
+      17512,
+      21
+    ],
+    [
+      555,
+      1142
+    ]
+  ],
+  "note": "One seeded holdout split on the supplied dataset; not clinical validation."
+}
